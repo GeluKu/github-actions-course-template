@@ -16,7 +16,7 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/chekout@v3
+      - uses: actions/checkout@v3
       - name: npm install and build webpack
         run: |
           npm install
